@@ -30,6 +30,7 @@ export const getStaticPaths = async () => {
         <h1>{ onur.name }</h1>
         <p>{ onur.email }</p>
         <p>{ onur.website }</p>
+        <p>{ onur.phone }</p>
         <p>{ onur.address.city }</p>
       </div>
     );
